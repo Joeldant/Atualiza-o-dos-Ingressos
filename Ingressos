@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expocrato 2025 - Exposição Agropecuária do Crato</title>
+    <link rel="stylesheet" href="style (1).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#"><img src="assests/imagem/logo.jpg" alt="Logo Expocrato"></a>
+                </div>
+                <nav class="nav">
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#atracoes">Atrações</a></li>
+                        <li><a href="#programacao">Programação</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="#ingressos" class="btn btn-primary">Comprar Ingressos</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>EXPOCRATO 2025</h1>
+                <p>11 a 20 de Julho • Parque de Exposições Pedro Felício Cavalcante</p>
+                <div class="hero-cta">
+                    <a href="#atracoes" class="btn btn-primary">Ver Atrações</a>
+                    <a href="#ingressos" class="btn btn-secondary">Comprar Ingressos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Ingressos -->
+    <section class="ingressos section-padding bg-primary" id="ingressos">
+        <div class="container">
+            <div class="section-header light">
+                <h2>INGRESSOS</h2>
+                <div class="divider light"></div>
+                <p>Garanta já o seu ingresso para a Expocrato 2025</p>
+            </div>
+            <div class="ingressos-grid">
+                <div class="ingresso-card">
+                    <div class="ingresso-header">
+                        <h3>Ingresso Diário</h3>
+                        <div class="preco">R$ 35,00</div>
+                    </div>
+                    <div class="ingresso-detalhes">
+                        <ul>
+                            <h1>
+                            <li><i class="fas fa-check"></i> Acesso a todas as áreas da exposição</li>
+                            <li><i class="fas fa-check"></i> Acesso ao show do dia</li>
+                            <li><i class="fas fa-times"></i> Acesso à área VIP</li>
+                            <li><i class="fas fa-times"></i> Estacionamento</li>
+                            </h1>
+                        </ul>
+                    </div>
+                    <div class="ingresso-footer">
+                        <a href="#" class="btn btn-secondary btn-full">Comprar Agora</a>
+                    </div>
+                </div>
+                <div class="ingresso-card destaque">
+                    <div class="ingresso-badge">Mais Popular</div>
+                    <div class="ingresso-header">
+                        <h3>Passaporte</h3>
+                        <div class="preco">R$ 299,00</div>
+                    </div>
+                    <div class="ingresso-detalhes">
+                        <ul>
+                            <h1>
+                            <li><i class="fas fa-check"></i> Acesso a todas as áreas da exposição</li>
+                            <li><i class="fas fa-check"></i> Acesso a todos os shows</li>
+                            <li><i class="fas fa-check"></i> Acesso à área VIP</li>
+                            <li><i class="fas fa-times"></i> Estacionamento</li>
+                            </h1>
+                        </ul>
+                    </div>
+                    <div class="ingresso-footer">
+                        <a href="#" class="btn btn-primary btn-full">Comprar Agora</a>
+                    </div>
+                </div>
+                <div class="ingresso-card">
+                    <div class="ingresso-header">
+                        <h3>Passaporte Premium</h3>
+                        <div class="preco">R$ 499,00</div>
+                    </div>
+                    <div class="ingresso-detalhes">
+                        <ul>
+                            <h1>
+                            <li><i class="fas fa-check"></i> Acesso a todas as áreas da exposição</li>
+                            <li><i class="fas fa-check"></i> Acesso a todos os shows</li>
+                            <li><i class="fas fa-check"></i> Acesso à área VIP</li>
+                            <li><i class="fas fa-check"></i> Estacionamento VIP</li>
+                            <li><i class="fas fa-check"></i> Open Food & Drink</li>
+                            </h1>
+                        </ul>
+                    </div>
+                    <div class="ingresso-footer">
+                        <a href="#" class="btn btn-secondary btn-full">Comprar Agora</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ingressos-info">
+                <p>Vendas também nas bilheterias oficiais em Crato, Juazeiro do Norte e Barbalha.</p>
+                <p>Meia-entrada conforme lei para estudantes, idosos, professores e PCDs com documentação comprobatória.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Atrações Section -->
+    <section class="atracoes section-padding bg-light" id="atracoes">
+        <div class="atracoess">
+        <div class="container">
+            <div class="section-header">
+                <h2>ATRAÇÕES 2025</h2>
+                <div class="divider"></div>
+                <p>Confira os grandes shows e eventos confirmados para esta edição</p>
+            </div>
+            <div class="filtro-atracoes">
+                <button class="filtro-btn active" data-filter="todos">Todos</button>
+                <button class="filtro-btn" data-filter="shows">Shows</button>
+                <button class="filtro-btn" data-filter="exposicoes">Exposições</button>
+                <button class="filtro-btn" data-filter="gastronomia">Gastronomia</button>
+            </div>
+            <div class="atracoes-grid">
+                <div class="atracao-card" data-categoria="shows">
+                    <div class="atracao-imagem">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkiMPx0-LHDaQKQOOh3lW1SrldITUbyaUjCA&s" alt="Matuê">
+                        <div class="atracao-data">13 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Matuê</h3>
+                        <p>Um dos artistas mais badalados da cena trap do Brasil se apresenta no palco principal da Expocrato 2025.</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 21:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Palco Principal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card" data-categoria="shows">
+                    <div class="atracao-imagem">
+                        <img src="https://uploads.metroimg.com/wp-content/uploads/2025/04/11140749/Jorge-e-Mateus-13.jpg" alt="Jorge e Matheus">
+                        <div class="atracao-data">19 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Jorge e Matheus</h3>
+                        <p>A dupla do sertanejo nacional traz seu mega show repleto de hits para a arena da Expocrato.</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 21:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Palco Principal</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card" data-categoria="rodeio">
+                    <div class="atracao-imagem">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMUtLacnpT6674Zfs25V3xQz3x1cUwv9-hQ&s" alt="Exposição de répteis">
+                        <div class="atracao-data">17-20 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Exposição de Répteis</h3>
+                        <p>Emoção garantida na exposição de répteis da Expocrato, venha conferir!</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 20:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Entrada</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card" data-categoria="exposicoes">
+                    <div class="atracao-imagem">
+                        <img src="https://www.sda.ce.gov.br/wp-content/uploads/sites/60/2019/07/180716_EXPOCRATO_NIU_4808.jpg" alt="Exposição Agropecuária">
+                        <div class="atracao-data">13-22 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Exposição Agropecuária</h3>
+                        <p>Venha conhecer os melhores exemplares da agropecuária regional e nacional em nossa exposição anual.</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 09:00 - 18:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Pavilhão Central</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card" data-categoria="gastronomia">
+                    <div class="atracao-imagem">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Festival Gastronômico">
+                        <div class="atracao-data">13-22 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Festival Gastronômico</h3>
+                        <p>Descubra os sabores autênticos da culinária do Cariri em nosso festival gastronômico.</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 12:00 - 22:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Praça de Alimentação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="atracao-card" data-categoria="shows">
+                    <div class="atracao-imagem">
+                        <img src="https://lirp.cdn-website.com/914da8df/dms3rep/multi/opt/1-1920w.jpg" alt="shows">
+                        <div class="atracao-data">11-20 JUL</div>
+                    </div>
+                    <div class="atracao-info">
+                        <h3>Festival Expocrato</h3>
+                        <p>Noites inesquecíveis você só encontra aqui! Com a presença dos mais diversos gêneros musicais, venha aproveitar essa experiência.</p>
+                        <div class="atracao-detalhes">
+                            <span><i class="fas fa-clock"></i> 21:00</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Palco Principal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section-padding" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>SOBRE A EXPOCRATO</h2>
+                <div class="divider"></div>
+                <p>Conheça a história e importância da maior exposição agropecuária do Nordeste</p>
+            </div>
+
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h3>Tradição e Inovação no Coração do Cariri</h3>
+                    <p>A EXPOCRATO é reconhecida como uma das maiores e mais tradicionais exposições agropecuárias do Nordeste, trazendo para a região do Cariri o que há de melhor em termos de agronegócio, cultura, entretenimento e gastronomia.</p>
+                    <p>Com uma história que remonta a mais de 70 anos, a feira se consolidou como um evento estratégico para o desenvolvimento econômico do interior cearense, reunindo produtores rurais, empresários, artistas e visitantes de todo o Brasil.</p>
+                    <p>Em 2023, a Expocrato bateu recorde com mais de 500 mil visitantes, gerando um impacto econômico estimado em R$ 100 milhões para a região do Cariri. A edição 2025 promete superar as expectativas com uma programação ainda mais abrangente.</p>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Vista aérea da Expocrato">
+                </div>
+            </div>
+
+
+            <div class="numeros-container">
+                <div class="linha-laranja"></div>
+                <div class="sobre-numeros">
+                    <div class="numero-item">
+                        <span class="numero">10</span>
+                        <span class="rotulo">Dias de Evento</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero">+500mil</span>
+                        <span class="rotulo">Visitantes</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero">+20</span>
+                        <span class="rotulo">Shows</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero">+300</span>
+                        <span class="rotulo">Expositores</span>
+                    </div>
+                </div>
+                <div class="linha-laranja"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Patrocinadores -->
+    <section class="patrocinadores section-padding bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>PATROCINADORES</h2>
+                <div class="divider"></div>
+                <p>Conheça as empresas e instituições que tornam a Expocrato possível</p>
+            </div>
+            <div class="patrocinadores-categorias">
+                <h3>Patrocinadores Master</h3>
+                <div class="patrocinadores-grid platinum">
+                    <div class="patrocinador-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXCJKFcsYHhuxDGgXezrB28VRH2wad4KFYeg&s" alt="Prefeitura Municipal do Crato">
+                    </div>
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/governo_do_estado_1_optimized.png" alt="Governo do Estado do Ceará">
+                        <img src="assests/imagem/governo_do_estado_1_optimized.png" alt="Governo do Estado do Ceará">
+                    </div>
+                </div>
+                <h3>Patrocinadores Ouro</h3>
+                <div class="patrocinadores-grid gold">
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/banco_do_nordeste_
+                        <img src="asssests/imagem/banco_do_nordeste_
+260x120.jpeg
+" alt="Banco do Nordeste">
+                    </div>
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/sebrae_optimized.png" alt="Sebrae">
+                        <img src="assests/imagem/sebrae_optimized.png" alt="Sebrae">
+                    </div>
+                </div>
+                <h3>Apoiadores</h3>
+                <div class="patrocinadores-grid silver">
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/itaipava_optimized.png" alt="Itaipava">
+                        <img src="assests/imagem/itaipava_optimized.png" alt="Itaipava">
+                    </div>
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/picpay_optimized.png" alt="PicPay">
+                        <img src="assests/imagem/picpay_optimized.png" alt="PicPay">
+                    </div>
+                    <div class="patrocinador-item">
+                        <img src="file:///C:/Users/PC-3/Downloads/vai_de_bet_260x120.webp" alt="VAIDEBET">
+                        <img src="assests/imagem/vai_de_bet_260x120.webp" alt="VAIDEBET">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato section-padding" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>CONTATO</h2>
+                <div class="divider"></div>
+                <p>Entre em contato conosco para dúvidas e informações</p>
+            </div>
+            <div class="contato-container">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Parque de Exposições Pedro Felício Cavalcante</p>
+                            <p>Av. Padre Cícero, S/N - Barro Branco</p>
+                            <p>Crato - CE, 63100-000</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(88) 3521-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@expocrato.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento (Durante o Evento)</h4>
+                            <p>Segunda a Domingo: 8h às 23h</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <h3>Envie uma mensagem</h3>
+                    <form id="form-contato">
+                        <div class="form-grupo">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <img src="assests/imagem/logo.jpg" alt="Logo Expocrato" class="footer-logo">
+                    <p>A Expocrato é a maior exposição agropecuária do Cariri, trazendo o melhor em entretenimento, negócios, cultura e gastronomia da região.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#ingressos">Ingressos</a></li>
+                        <li><a href="#atracoes">Atrações</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#patrocinadores">Patrocinadores</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Informações</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                        <li><a href="#">Política de Reembolso</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Acessibilidade</a></li>
+                        <li><a href="#">Mapa do Evento</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Parque de Exposições Pedro Felício Cavalcante, Crato-CE</li>
+                        <li><i class="fas fa-phone"></i> (88) 99380-2000</li>
+                        <li><i class="fas fa-envelope"></i> contato@expocrato.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">&copy; 2025 Expocrato - Todos os direitos reservados. - EQUIPE 01</div>
+
+            </div>
+        </div>
+    </footer>
+</body>
